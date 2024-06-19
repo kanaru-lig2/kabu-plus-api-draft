@@ -1,6 +1,6 @@
 openapi: 3.1.0
 info:
-  title: KABU & PLUS API
+  title: kabu-community API
   version: 0.0.1
 paths:
   /mz-articles/{mzArticleId}/bookmark:
