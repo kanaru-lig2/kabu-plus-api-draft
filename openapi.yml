@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: KABU & PLUS API
+  version: 0.0.1
+paths:
+  /mz-articles/{mzArticleId}/bookmark:
+    $ref: "./paths/mz-articles/bookmark.yml"
+components:
+  parameters:
+    mzArticleId:
+      $ref: "./components/parameters/mzArticleId.yml"
+  responses:
+    Error:
+      $ref: "./components/responses/Error.yml"
+  securitySchemes:
+    bearerAuth:
+      $ref: "./components/security/bearerAuth.yaml"

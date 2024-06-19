@@ -1,0 +1,7 @@
+in: path
+name: mzArticleId
+required: true
+schema:
+  type: integer
+  format: int64
+description: ID of the article
