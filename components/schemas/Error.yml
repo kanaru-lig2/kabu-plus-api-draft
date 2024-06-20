@@ -5,3 +5,15 @@ properties:
     format: int32
   message:
     type: string
+  errors:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+required:
+  - code
+  - message
