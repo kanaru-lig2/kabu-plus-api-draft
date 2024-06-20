@@ -11,7 +11,7 @@ components:
       $ref: "./components/parameters/mzArticleId.yml"
   responses:
     Error:
-      $ref: "./components/responses/Error.yml"
+      $ref: "./components/schemas/Error.yml"
   securitySchemes:
     bearerAuth:
       $ref: "./components/security/bearerAuth.yaml"
